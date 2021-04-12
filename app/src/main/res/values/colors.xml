@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#3F51B5</color>
+<color name="colorPrimaryDark">#1b1f3a</color>
+<color name="colorAccent">#64637c</color>
+<color name="white_color">#FFFFFF</color>
+<color name="floatloginlabels">#bbc3ce</color>
+<color name="dialog_lohin_up">#4c526a</color>
+<color name="dialog_color">#4c526a</color>
+<color name="black_color">#000000</color>
+
+<color name="textbackclr">#7f85a9</color>
+<color name="pink_color">#ced0da</color>
+<color name="textColorPrimary">#FFFFFF</color>
+<color name="windowBackground">#FFFFFF</color>
+<color name="navigationBarColor">#000000</color>
+
+
+<color name="manager_Attendance_leave_bacground">#f3f3f3</color>
+<color name="manager_Attendance_leave_bacground_button">#cfd5f9</color>
+<color name="map_punch_history_bg">#414768</color>
+<color name="manager_working_header">#7f85a9</color>
+
+<!--   calender values-->
+<color name="summer">#44eebd82</color>
+<color name="fall">#44d8d27e</color>
+<color name="winter">#44a1c1da</color>
+<color name="spring">#448da64b</color>
+<color name="today">#4b82ff</color>
+<color name="greyed_out">#c7c7c7</color>
+<color name="radio_button_color">#4d516a</color>
+<color name="pink_color_color">#df3ec0</color>
+
+<!--leave application-->
+<color name="radio_button_tint">#292d47</color>
+<color name="text_color_hint">#4d5065</color>
+<color name="approver_hirarchy_color">#7fd36c</color>
+<color name="background_app">#f1f1f1</color>
+
+<!--    out duty-->
+<color name="background_tint">#757786</color>
+<color name="lightgray">#e7e7e7</color>
+<color name="red_color">#ff0000</color>
+<color name="calender_color">#2E86C1</color>
+</resources>

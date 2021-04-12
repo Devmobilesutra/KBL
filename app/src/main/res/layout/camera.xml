@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/header"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <!--&lt;!&ndash; FOOTER &ndash;&gt;
+    <LinearLayout android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        &lt;!&ndash; menu bar &ndash;&gt;
+        <include layout="@layout/applicationfooter" />
+    </LinearLayout>-->
+
+
+
+
+
+    <!-- MAIN PART -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_content_view"
+
+        android:layout_below="@+id/header"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+            <SurfaceView
+                android:id="@+id/CameraView"
+                android:layout_width="230dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                >
+
+            </SurfaceView>
+        </LinearLayout>
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:layout_marginTop="15dp">-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginTop="6dp">
+
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp"
+                android:fontFamily="@string/fontFamily__roboto_light"
+                android:textColor="@color/textColorPrimary"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mark_att_in"
+                android:textSize="26sp"
+                android:id="@+id/in_button"
+                android:fontFamily="@string/fontFamily__roboto_condensed"
+                android:background="@drawable/camera_btn_in"
+                android:textColor="@color/textColorPrimary"
+                android:onClick="in_picture"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mark_att_out"
+                android:fontFamily="@string/fontFamily__roboto_condensed"
+                android:textSize="26sp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/textColorPrimary"
+                android:background="@drawable/camera_btn_out"
+                android:id="@+id/out_button"
+                android:onClick="out_picture"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+
+            <LinearLayout
+                android:id="@+id/linear_lastpunch"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/txt_last_entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/mark_att_lastpunch"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="13dp"
+                    android:fontFamily="@string/fontFamily__roboto_light"
+                    android:textColor="#579e4d"/>
+
+
+
+                <TextView
+                    android:id="@+id/txt_last_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingTop="5dp"
+
+
+                    android:text="23 Aug 17 4:33:52 PM OUT"
+                    android:fontFamily="@string/fontFamily__roboto_light"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:weightSum="2">
+
+                <ExpandableListView
+                    android:id="@+id/lvExp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+                    android:groupIndicator="@drawable/group_indicator"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
