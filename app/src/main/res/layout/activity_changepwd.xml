@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/dialog_lohin_up"
+        android:text="Change Password"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white_color"
+        android:layout_height="50dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white_color"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                >
+
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter old Password"
+                    android:id="@+id/old_pwd"
+
+                    android:inputType="textNoSuggestions"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/floatloginlabels"
+                    android:padding="14dp"
+
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@string/fontFamily__roboto_light"
+                    android:paddingTop="4dp"
+                    android:nextFocusUp="@id/editText_username"
+                    android:nextFocusLeft="@id/editText_username"
+
+                    android:layout_marginTop="4dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white_color"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                >
+
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/floatloginlabels"
+                    android:padding="14dp"
+                    android:hint="Enter new Password"
+                    android:id="@+id/new_pwd"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@string/fontFamily__roboto_light"
+                    android:paddingTop="4dp"
+                    android:nextFocusUp="@id/editText_username"
+                    android:nextFocusLeft="@id/editText_username"
+
+                    android:layout_marginTop="4dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+      <!--  <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:hint="Enter new Password"
+        android:id="@+id/new_pwd"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"/>
+-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white_color"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                >
+
+
+                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textNoSuggestions"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/floatloginlabels"
+                    android:padding="14dp"
+                    android:hint="Enter confirm Password"
+                    android:id="@+id/confirm_pwd"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@string/fontFamily__roboto_light"
+                    android:paddingTop="4dp"
+                    android:nextFocusUp="@id/editText_username"
+                    android:nextFocusLeft="@id/editText_username"
+
+                    android:layout_marginTop="4dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:hint="Enter confirm Password"
+        android:id="@+id/confirm_pwd"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"/>
+-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Update"
+                android:textSize="18sp"
+                android:id="@+id/update"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@string/fontFamily__roboto_condensed"
+                android:textColor="@color/white_color"
+                android:background="@drawable/roundbutton"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <Button
+                android:text="Close"
+                android:id="@+id/close"
+                android:textSize="18sp"
+                android:textColor="@color/white_color"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@string/fontFamily__roboto_condensed"
+                android:padding="5dp"
+                android:layout_alignLeft="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

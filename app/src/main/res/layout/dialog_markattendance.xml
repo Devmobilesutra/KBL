@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dialog_color"
+        android:gravity="center">
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_dialog_mark_attendance"
+            android:textColor="@color/white_color"
+            android:textSize="20sp"
+            android:gravity="center"
+
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+
+        >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:padding="10dp"
+         android:orientation="horizontal"
+        >
+         <ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/icon_tick"
+             android:id="@+id/imageButton"
+             android:background="@color/white_color"
+             />
+         <TextView
+             android:text="Successfully"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/textView"
+            android:textSize="20dp"
+             android:fontFamily="@string/fontFamily__roboto_condensed"
+              />
+
+         <TextView
+             android:text="Punched"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/textView2"
+             android:textSize="20dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="@string/fontFamily__roboto_condensed"
+              />
+
+         <Button
+             android:text="IN"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:textColor="@color/white_color"
+             android:fontFamily="@string/fontFamily__roboto_condensed"
+             android:id="@+id/button4"
+             android:layout_marginLeft="10dp"
+             android:textSize="20dp"
+             android:background="@drawable/dialog_btn_in"
+             />
+     </LinearLayout>
+
+
+
+
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:background="@drawable/roundbutton"
+                android:text="Ok"
+                android:id="@+id/button_ok"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/text_size_16"
+                android:fontFamily="@string/fontFamily__roboto_light"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

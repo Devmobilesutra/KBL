@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">EMTrack</string>
+
+    <!--++++++++++++++++++++++++++-->
+    <!--added on API 16 (JB - 4.1)-->
+    <!--++++++++++++++++++++++++++-->
+    <!--the default font-->
+    <string name="fontFamily__roboto_regular">sans-serif</string>
+    <string name="fontFamily__roboto_light">sans-serif-light</string>
+    <string name="fontFamily__roboto_condensed">sans-serif-condensed</string>
+
+    <!--+++++++++++++++++++++++++++++-->
+    <!--added on API 17 (JBMR1 - 4.2)-->
+    <!--+++++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_thin">sans-serif-thin</string>
+
+    <!--+++++++++++++++++++++++++++-->
+    <!--added on Lollipop (LL- 5.0)-->
+    <!--+++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_medium">sans-serif-medium</string>
+    <string name="fontFamily__roboto_black">sans-serif-black</string>
+    <string name="fontFamily__roboto_condensed_light">sans-serif-condensed-light</string>
+    <string name="leave_application">Leave   Application</string>
+    <string name="attendance_regularization">Attendance Regularization</string>
+    <string name="out_duty_application">Out Duty Application</string>
+    <string name="compoff_application">Comp-off  Application</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="pending_text">Pending Approvals</string>
+    <string name="btn_mrk_att_text">Mark Attendance</string>
+
+
+    <string name="text_day_sun">SUN</string>
+    <string name="text_day_mon">MON</string>
+    <string name="text_day_tue">TUE</string>
+    <string name="text_day_wed">WED</string>
+    <string name="text_day_thu">THU</string>
+    <string name="text_day_fri">FRI</string>
+    <string name="text_day_sat">SAT</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <!--  mark attendance...-->
+
+
+    <string name="mark_att_in">IN</string>
+    <string name="mark_att_out">OUT</string>
+    <string name="mark_att_lastpunch">Last Punch</string>
+
+
+    <!--  leave application...-->
+    <string name="leave_app_leavetype">Leave code</string>
+    <string name="leave_app_firsthalf">First half</string>
+    <string name="leave_app_secondhalf">Second half</string>
+    <string name="leave_app_fullday">Full day</string>
+    <string name="leave_app_fromdate">From Date</string>
+    <string name="leave_app_todate">To Date</string>
+
+    <!-- ....................-->
+    <string name="app_reason">Reason</string>
+    <string name="app_approverhirearchy">Approver Flow</string>
+    <string name="app_apply_button">Apply</string>
+    <string name="app_cancel_button">Cancel</string>
+
+    <!--attendance regularization....-->
+
+
+    <string name="attd_reg_app_indate">In Date</string>
+    <string name="attd_reg_app_intime">In Time</string>
+    <string name="attd_reg_app_outdate">Out Date</string>
+    <string name="attd_reg_app_outtime">Out Time</string>
+    <string name="attd_reg_app_shift">Shift</string>
+    <string name="attd_reg_app_realouttime"> Real Out Time</string>
+    <string name="attd_reg_app_realintime">Real In Time</string>
+    <string name="attd_reg_app_remark">Remark</string>
+    <string name="attd_reg_app_no_of_days">No. of days :</string>
+    <!-- ......................-->
+
+    <!--  out duty.....-->
+    <string name="out_duty_app_location">Out duty address</string>
+    <string name="out_duty_app_fromtime">From Time</string>
+    <string name="out_duty_app_totime">To Time</string>
+    <string name="out_duty_app_date">Date</string>
+    <string name="out_duty_app_indate">In Date</string>
+    <string name="out_duty_app_outdate">Out Date</string>
+
+    <!-- validate Login-->
+    <string name="err_msg_name">Enter  username</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name = "required_asterisk"><![CDATA[<font color=\'#ff0000\'>&nbsp*</font>]]></string>
+
+
+    <!-- validate Comp-off-->
+    <string name="err_msg_againstdate">Select Against Date</string>
+    <string name="err_msg_date">Select Date</string>
+    <string name="err_msg_reason">Please Enter reason</string>
+    <!-- validate leave-->
+    <string name="err_msg_fromdate">Select From Date</string>
+    <string name="err_msg_todate">Select To Date</string>
+    <string name="err_msg_reason1">Please Enter Reason</string>
+
+    <!-- validate leave-->
+    <string name="err_msg_date1">Select Date</string>
+    <string name="err_msg_indate">Select In Date</string>
+    <string name="err_msg_outdate">Select Out Date</string>
+    <string name="err_msg_intime">Select In Time</string>
+    <string name="err_msg_outtime">Select Out Time</string>
+
+    <!-- validate Registration-->
+    <string name="err_msg_empid">  Enter Employee Code</string>
+    <string name="err_msg_phone"> Enter Mobile Number</string>
+    <string name="err_msg_Companycode">  Enter Company Code</string>
+    <string name="mul_day_cross_wfh">IsConsiderTimeCross</string>
+
+    <!-- validate OD-->
+
+    <string name="err_msg_intime_od">Select From Time</string>
+    <string name="err_msg_outtime_od">Select To Time</string>
+
+    <string name="computationError">Error</string>
+</resources>

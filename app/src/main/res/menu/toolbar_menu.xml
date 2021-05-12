@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.commando5.empower.MainActivity">
+
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="100"
+        android:title="notification"
+        android:icon="@drawable/ic_action_sync"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/change_pswd"
+        app:showAsAction="never"
+        android:title="Change Password">
+</item>
+
+
+
+</menu>
+

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Text_size_mark_Att">18sp</dimen>
+    <dimen name="manager_textsize_normal">16sp</dimen>
+    <dimen name="text_size_NORMAL">18sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_LARGE">22sp</dimen>
+    <dimen name="text_size_XLARGE">26sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+  <!-- soumyadeclaration ..............................-->
+    <dimen name="Text_size_normal_device">18sp</dimen>
+    <dimen name="Text_size_large_device">22sp</dimen>
+    <dimen name="Text_size_xlarge_device">26sp</dimen>
+    <dimen name="manager_textsize">20sp</dimen>
+
+   <!-- ........................-->
+
+    <!--soumya....-->
+    <!--    navbar...-->
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!--    navbar  large...-->
+    <dimen name="appbar_large_padding_top">12dp</dimen>
+    <dimen name="nav_header_large_vertical_spacing">24dp</dimen>
+    <dimen name="nav_header_large_height">200dp</dimen>
+    <dimen name="activity_vertical_margin_large">24dp</dimen>
+
+    <!--  end..................-->
+
+
+    <!--leave application fror normal device...-->
+    <dimen name="Text_size_normal_device_leavetype">16sp</dimen>
+    <dimen name="margin_left">12dp</dimen>
+    <dimen name="margin_right">12dp</dimen>
+    <dimen name="layout_padding">10dp</dimen>
+
+    <!-- large device....-->
+    <dimen name="margin_left_large">20dp</dimen>
+    <dimen name="text_size_leavetype_large">24sp</dimen>
+    <!--  .................................-->
+
+    <!-- Xlarge device....-->
+    <dimen name="margin_left_xlarge">30dp</dimen>
+    <dimen name="text_size_leavetype_xlarge">28sp</dimen>
+    <!--  .................................-->
+
+</resources>
